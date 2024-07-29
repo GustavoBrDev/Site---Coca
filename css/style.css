@@ -1,0 +1,1126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --corSecundaria: #1D1E25;
+    --corPrincipal: #8635FD;
+    --contrasteSecundario: #EDEDED;
+    --contrastePrincipal: #fff;
+    --destaque: rgba(134,53,253,0.08);
+    --redondo : 1rem;
+    --insercao: #FAFBFA;
+    --lucro: #60D39C;
+    --textoOculto: #7E8492;
+    --textoDestacado: #1D1E25;
+    --primarioVariacao: #D0C3F9;
+    --inscricao: #F8FAFC;
+    --textoInscricao: #E9D7FE;
+    --redondoMenor: 8px;
+    --tamanhoH1: 36px;
+    --tamanhoH2: 32px;
+    --tamanhoH3: 48px;
+    --tamanhoH4: 30px;
+    --tamanhoH5: 24px;
+    --tamanhoH6: 18px;
+    --tamanhoTexto: 16px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: var(--tamanhoTexto);
+    color: var(--textoOculto);
+}
+
+
+.anuncioSuperior {
+    background-color: var(--corPrincipal);
+    color: var(--contrastePrincipal);
+}
+
+.anuncioSuperior p {
+    font-size: 12px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setaParaTexto {
+    width: 15%;
+    height: 10%;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.anuncioPrincipal {
+   background-color: var(--destaque);
+   color: var(--corPrincipal);
+   border-radius: var(--redondo);
+   width: 53%;
+   margin-bottom: 0.5rem;
+   margin-left: 1rem;
+   text-align: center;
+}
+
+h1 {
+    font-size: var(--tamanhoH1);
+    color: var(--textoDestacado);
+}
+
+h2 {
+    font-size: var(--tamanhoH2);
+    color: var(--textoDestacado);
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.setaTexto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconeMenu {
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    width: 8%;
+    height: 8%;
+}
+
+.iconeCoca {
+    padding-left: 1rem;
+    height: 6%;
+}
+
+.insercaoEmail {
+    display: flex;
+    justify-content: space-between;
+    border-radius: var(--redondo);
+    background-color: var(--insercao);
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--textoDestacado);
+    align-items: center;
+    font-weight: 500;
+}
+
+.botaoEmail {
+    background-color: var(--corPrincipal);
+    color: var(--contrastePrincipal);
+    border-radius: var(--redondo);
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.graficoVendas {
+    width: 100%;
+    height: 100%;
+}
+
+.informacoes {
+    display: flex;
+    background-color: var(--corPrincipal);
+    color: var(--contrastePrincipal);
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-radius: var(--redondo);
+}
+
+.destaqueInformacao {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.textoDestacado {
+    display: flex;
+}
+
+.destaqueVerde {
+    color: var(--lucro);
+    font-weight: 400;
+}
+
+.setaLucro {
+    width: 7%;
+    height: 7%;
+}
+
+.vantagens {
+    background-image: url("../assets/fundoLinhasComplicado.png");
+    background-repeat: no-repeat;
+    background-position: -50rem;
+    background-size: auto 100%;
+    color: var(--contrasteSecundario);
+    padding: 1rem;
+}
+
+.vantagens h2 {
+    color: var(--contrastePrincipal);
+}
+
+.vantagens p {
+    padding-top: 0.2rem;
+}
+
+.botaoStart {
+    background-color: var(--contrastePrincipal);
+    color: var(--corPrincipal);
+    padding: 1rem;
+    width: 30%;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.vantagem {
+    background-color: var(--corPrincipal);
+    color: var(--contrastePrincipal);
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: var(--redondo);
+}
+
+.icone-redondo {
+    background-color: var(--contrastePrincipal);
+    border-radius: var(--redondo);
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconeImagem {
+    width: 24px;
+    height: 24px;
+}
+
+h6 {
+    font-size: var(--tamanhoH6);
+}
+
+.cartoes {
+    background-color: var(--inscricao);
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.quebraOculta {
+    display: none;
+}
+
+.cartao {
+    background-color: var(--contrastePrincipal);
+    padding: 1rem;
+    margin: 0 1rem 2rem 1rem;
+}
+
+
+h5 {
+    font-size: var(--tamanhoH5);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--textoDestacado);
+}
+
+.textoOculto {
+    font-size: 14px;
+}
+
+ul {
+    padding: 1rem;
+    color: var(--textoOculto);
+}
+
+.imagemCartao {
+    width: 90%;
+    height: 90%;
+    border: var(--primarioVariacao) 1rem solid;
+    border-bottom: 0px;
+}
+
+.botao-venda {
+    background-color: var(--corPrincipal);
+    color: var(--contrastePrincipal);
+    border-radius: var(--redondo);
+    padding: 0.5rem;
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divBrush {
+    margin-top: 0.3rem;
+}
+
+.perfil-grande {
+    width: 90%;
+    height: 90%;
+    margin: 1rem;
+}
+
+.avaliacao {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+.avaliacao img {
+    padding-right: 1rem;
+}
+
+.nota {
+    color: var(--textoDestacado);
+    font-weight: 500;
+}
+
+.comentario {
+    color: var(--textoDestacado);
+    font-weight: bold;
+    font-size: var(--tamanhoH5);
+}
+
+.nome-pessoa {
+    font-size: 24px;
+    color: var(--textoDestacado);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.cargo-pessoa {
+    font-family: "Sonsie One";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.outras-avaliacoes {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.imagem-perfil {
+    width: 73px;
+    height: 73px;
+    padding: 5px;
+}
+
+.imagem-continuar {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.texto-centro {
+    color: var(--textoDestacado);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.informacoes-planos {
+    padding: 1rem;
+    background-color: var(--insercao);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.botoes-planos {
+    display: flex;
+}
+
+.secao-planos {
+    margin-top: 2rem;
+}
+
+.planos {
+    padding: 1rem;
+}
+
+.botao-chat, .botao-chat-principal {
+    color: var(--textoDestacado);
+    font-weight: 700;
+    border-radius: var(--redondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--contrasteSecundario);
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.botao-comecar, .botao-comecar-principal {
+    color: var(--contrastePrincipal);
+    background-color: var(--corPrincipal);
+    border-radius: var(--redondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.botao-chat-principal, .botao-comecar-principal {
+    width: 50%;
+}
+
+h3 {
+    font-size: var(--tamanhoH3);
+    text-align: center;
+    font-weight: 600;
+    color: var(--textoDestacado);
+}
+
+.item-caracteristica {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.check {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nome-plano {
+    text-align: center;
+    background-color: var(--insercao);
+    color: var(--textoDestacado);
+    border-radius: var(--redondo);
+    width: 37%;
+    margin: 0 auto;
+}
+
+.plano {
+    background-color: var(--contrastePrincipal);
+    border: var(--contrasteSecundario) 1px solid;
+    border-radius: var(--redondo);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.textoVerificado {
+    color: var(--textoDestacado);
+    font-weight: 400;
+}
+
+.plano hr {
+    border: 1px var(--contrasteSecundario) solid;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.descricaoPlano {
+    text-align: center;
+}
+
+.quadrado-cinza {
+    background-color: var(--inscricao);
+    border-radius: var(--redondo);
+    padding: 2rem;
+    margin-right: 1rem;
+}
+
+.quadrado-cinza h2, .centralizar  {
+    text-align: center;
+}
+
+.campo-email {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px var(--contrasteSecundario) solid;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.campo-email:hover {
+    border: 3px var(--corPrincipal) solid;
+}
+
+.botao-email {
+    background-color: var(--corPrincipal);
+    color: var(--contrastePrincipal);
+    border-radius: var(--redondoMenor);
+    padding: 0.8rem;
+    border: 0px solid;
+    margin-bottom: 0.5rem;
+}
+
+.botao-email:hover {
+    background-color: var(--contrastePrincipal);
+    color: var(--corPrincipal);
+    border: 1px var(--corSecundaria) solid;
+}
+
+.testeGratis {
+    background-color: var(--corPrincipal);
+    color: var(--contrastePrincipal);
+    padding: 1rem;
+}
+
+h4 {
+    color: var(--contrastePrincipal);
+    font-size: var(--tamanhoH4);
+    font-weight: 600;
+}
+
+.espacamento {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--textoInscricao);
+}
+
+.botoes-testeGratis {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 3rem;
+}
+
+.botao-lerMais {
+    background-color: var(--contrastePrincipal);
+    color: var(--textoDestacado);
+    font-weight: 600;
+    border-radius: var(--redondoMenor);
+    padding: 0.8rem;
+}
+
+.botao-iniciar {
+    background-color: var(--corSecundaria);
+    color: var(--contrastePrincipal);
+    font-weight: 600;
+    border-radius: var(--redondoMenor);
+    padding: 0.8rem;
+}
+
+
+.vantagens, .relato, .secaoGratis, .testeGratis {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.secaoPrincipal {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--contrasteSecundario); 
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--corSecundaria) ;
+    color: var(--contrasteSecundario);
+    font-size: 14px;
+    padding: 1rem;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.coluna {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.coluna p, .coluna a {
+    margin-top: 1rem;
+}
+
+.informacoesLegais {
+    text-align: center;
+}
+
+footer hr {
+    border: 1px var(--textoOculto) solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mais {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.menuExtendido {
+    display: none;
+}
+
+.setaTexto {
+    align-items: center;
+}
+
+@media ( max-width: 360px ) {
+
+    .anuncioPrincipal {
+        width: 70%;
+    }
+
+    .insercaoEmail {
+        width: 90%;
+        gap: 0.5rem;
+    }
+
+    .botao-venda {
+        width: 65%;
+    }
+
+    .outras-avaliacoes {
+        width: 80%;
+    }
+
+    .imagem-perfil {
+        width: 53px;
+        height: 53px;
+        padding: 3px;
+    }
+    
+    .imagem-continuar {
+        width: 40px;
+        height: 40px;
+        padding: 3px;
+    }
+
+    .check {
+       width: 24px;
+       height: 24px; 
+    }
+
+}
+
+@media ( min-width: 500px ){
+
+    .anuncioPrincipal {
+        width: 40%;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .botao-venda {
+        width: 35%;
+    }
+
+    .vantagem {
+        width: 80%;
+    }
+
+    .nome-plano {
+        width: 27%;
+    }
+
+    .botaoStart {
+        width: 25%;
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media ( min-width: 800px ){
+
+    .anuncioPrincipal {
+        width: 25%;
+    }
+
+    .secaoPrincipal {
+        padding: 2rem;
+    }
+
+    .login {
+        margin-left: 1.5rem;
+    }
+
+    .botao-venda {
+        width: 22%;
+    }
+
+    .quadrado-cinza {
+        margin-right: 1.5rem;
+    }
+
+    .nome-plano {
+        width: 20%;
+    }
+
+    .botaoStart {
+        width: 15%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media ( min-width: 950px ) {
+
+    .anuncioPrincipal {
+        width: 22%;
+    }
+
+    .informacoes {
+        padding: 1rem;
+    }
+
+    .botao-venda {
+        width: 18%;
+    }
+
+    .nome-plano {
+        width: 16%;
+    }
+
+    .botaoStart {
+        width: 12%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media ( min-width: 1100px ) {
+
+    .anuncioPrincipal {
+        width: 18%;
+    }
+
+    .botao-venda {
+        width: 15%;
+    }
+
+    .vantagens {
+        padding: 5rem;
+    }
+
+    .vantagem {
+        width: 90%;
+    }
+
+    .nome-plano {
+        width: 15%;
+    }
+
+    .botaoStart {
+        width: 10%;
+    }
+
+}
+
+@media ( min-width: 1300px ){
+
+    .anuncioPrincipal {
+        width: 16%;
+    }
+
+    .botao-venda {
+        width: 12%;
+    }
+
+    .nome-plano {
+        width: 12%;
+    }
+
+    .botaoStart {
+        width: 8%;
+    }
+
+}
+
+@media ( min-width: 1440px ) {
+
+    :root {
+        --tamanhoH1: 72px;
+        --tamanhoH2: 56px;
+        --tamanhoH4: 30px;
+        --tamanhoH5: 48px;
+        --tamanhoTexto: 18px;
+    }
+
+    .anuncio::after {
+        content: ", live mentorship, and an exclusive 50% Early Bird discount. Discover more now!🎉";
+    }
+
+    .iconeMenu {
+        display: none;
+    }
+
+    .menuExtendido {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .itemMenu {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--corSecundaria);
+    }
+
+    .botaoSign, .botaoUp p {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--corSecundaria);
+    }
+
+    .botoesMenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .botaoUp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #D5DAE1 1px solid;
+        border-radius: 100px;
+        padding: 1rem;
+        margin-right: 3rem;
+    }
+
+    .anuncioPrincipal {
+        width: 16%;
+    }
+
+    .setaParaTexto {
+        width: 25%;
+        height: 10%;
+        margin-bottom: 4rem;
+        margin-left: 4rem;
+    }
+
+    .textoSeta {
+        margin-right: 16rem;
+    }
+
+    .secaoPrincipal {
+        display: flex;
+        flex: 6;
+    }
+
+    .separacaoEsquerda {
+        flex: 4;
+    }
+
+    .separacaoDireita {
+        flex: 2;
+    }
+
+    .textoSeta {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .graficoVendas {
+        width: 100%;
+        height: 60%;
+        margin-right: 1rem;
+    }
+
+    .informacoes {
+        margin-right: 1rem;
+    }
+
+    .insercaoEmail {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .login {
+       margin-left: 10rem;
+       margin-top: 2rem;
+    }
+
+    .secaoPrincipal {
+        margin-bottom: 4rem;
+    }
+
+    .vantagens {
+        background-position: 0;
+        background-size: auto 100%;
+    }
+
+    .vantagem {
+        width: 30%;
+    }
+
+    .vantagemEsquerda {
+        margin-top: 3rem;
+    }
+
+    .botaoStart {
+        width: 20%;
+    }
+
+    .beneficios {
+        margin: 4rem;
+    }
+
+    .botaoStart {
+        margin: 3rem;
+    }
+
+    .superiorVantagens {
+        display: flex;
+    }
+
+    .conteudoVantagens {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        margin-bottom: 0;
+    }
+    .quebraOculta {
+        display: block;
+    }
+
+    .cartao {
+        display: flex;
+        gap: 8rem;
+        flex: 5;
+        margin: 0rem 8rem 8rem 8rem;
+    }
+
+    .cartoes {
+        padding-top: 5rem;
+    }
+
+    .imagemCartao {
+        flex: 2;
+    }
+
+    .conteudoCartao {
+        flex: 3;
+    }
+
+    .cartao p {
+        font-size: 20px;
+    }
+
+    .botao-venda {
+        width: 40%;
+    }
+
+    .divBrush {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5rem;
+        gap: 1rem;
+    }
+
+
+    .relatoConteudo {
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+    }
+
+    .relato {
+        margin-top: 0;
+    }
+
+    .comentario {
+        font-size: 32px;
+        margin-right: 8rem;
+    }
+
+
+    .botoes-planos {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .informacoes-planos {
+        position: absolute;
+        z-index: 0;
+        /*Por algum santo motivo, qualquer valor acima de 98% cria uma margem á direita*/
+        width: 97.2vw;
+        /*Gambiarra para fazer funcionar*/
+        padding-right: 1.6%;
+        padding-top: 4rem;
+        padding-bottom: 10rem;
+    }
+
+    .planos {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 1;
+        top: 20rem;
+        margin-bottom: 20rem;
+    }
+
+    .nome-plano {
+        width: 42%;
+    }
+
+    .coluna {
+        width: 25%;
+    }
+
+    .informacoesLegais, .informacoesAgrupadas {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .informacoesAgrupadas {
+        gap: 3rem;
+        margin-left: 1rem;
+    }
+
+    form {
+        width: 48%;
+        margin: 0 auto;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .campo-email {
+        width: 60%;
+    }
+
+    .botao-email {
+        margin-top: 1rem;
+    }
+
+    .quadrado-cinza {
+        margin: 5rem;
+    }
+
+    .textoPrivacidade {
+        margin-left: 22rem;
+        margin-bottom: 2rem;
+    }
+
+    .testeGratis {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        margin: 0rem 3rem 0rem 3rem;
+        z-index: 1;
+        position: relative;
+    }
+
+    footer {
+        position: relative;
+        z-index: 0;
+        margin-top: -6rem; 
+        padding-top: 9rem; 
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+
+
+}
+
+@media ( min-width: 1600px ) { 
+
+    .anuncioPrincipal {
+        width: 15%;
+    }
+
+    .botao-venda {
+        width: 30%;
+    }
+
+    .nome-plano {
+        width: 45%;
+    }
+
+    .botaoStart {
+        width: 20%;
+    }
+
+    .textoPrivacidade {
+        margin-left: 25.5rem;
+    }
+
+    .informacoes-planos {
+        padding-right: 1.7%;
+    }
+
+}
+
+@media ( min-width: 1800px ) { 
+
+    .anuncioPrincipal {
+        width: 13%;
+    }
+
+    .botao-venda {
+        width: 25%;
+    }
+
+    .botaoStart {
+        width: 15%;
+    }
+
+    .vantagens {
+        background-size: 100%;
+    }
+
+    .textoPrivacidade {
+        margin-left: 30rem;
+    }
+
+    .informacoes-planos {
+        padding-right: 1.8%;
+    }
+
+}
+
+@media ( min-width: 2000px ) { 
+
+    .anuncioPrincipal {
+        width: 11%;
+    }
+
+    .botao-venda {
+        width: 22%;
+    }
+
+    .textoPrivacidade {
+        margin-left: 34.5rem;
+    }
+
+    .informacoes-planos {
+        padding-right: 2.0%;
+    }
+
+}
+
+/*Já chega de break points, não vou fazer até 4k não <= */
