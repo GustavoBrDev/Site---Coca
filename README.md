@@ -46,3 +46,6 @@ Existem diversas formas de hospedar esse site localmente, entre as quais:
 
 4. **Abra o localhost** juntamente com o nome da pasta em que o arquivo está inserido.  
    Ex: `localhost/nomedapasta`
+
+
+# Você pode abrí-lo através da hospedagem no [Vercel](site-coca-tau.vercel.app)
