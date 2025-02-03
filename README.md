@@ -1,64 +1,48 @@
-# Site - Coca
+# Projeto Site Responsivo - Coca
 
-O atual projeto consiste em um site responsivo para a empresa ficticia Coca.<br> 
-A empresa Coca oferece soluções para processamento de dados inteligente para diversos negócios. 
+O atual projeto consiste em um site responsivo para a empresa fictícia **Coca**. A empresa Coca oferece soluções para processamento de dados inteligente para diversos negócios.
 
-O projeto foi desenvolvido utilizando o conceito de **Mobile First** e utilizou: <br>
---> A Linguagem de Marcação de Hiptertexto **(HTML)**<br>
---> A Folha de Estilo em Cascatas / Linguagem de Estilização **(CSS)**<br>
---> Um projeto no **Figma** como referência
+## Tecnologias Utilizadas
 
-Para hospedar localmente esse site há diversas formas, entre as quais: <br>
---> Através da extensão do **Visual Studio** <br>
---> Através do **XAMPP** <br>
---> Outros (pesquise na internet por **localhost**)
+O projeto foi desenvolvido utilizando o conceito de **Mobile First** e as seguintes tecnologias:
 
-## VISUAL STUDIO
+- **HTML** (Linguagem de Marcação de Hipertexto)
+- **CSS** (Folha de Estilo em Cascatas / Linguagem de Estilização)
+- Um projeto no **Figma** como referência
 
-<ol>
-  <li>Abra o Visual Studio</li>
-  
-  <ul>
-    <li>Caso não possua, faça o download aqui: https://code.visualstudio.com/download</li>
-  </ul>
+## Como Hospedar Localmente
 
-  <li>Abra o arquivo desse projeto</li>
-  
-  <ol>
-    <li>Clique em file (arquivo)</li>
-    <li>Open folder (abrir pasta)</li>
-    <li>Selecione a pasta do projeto</li>
-  </ol>
+Existem diversas formas de hospedar esse site localmente, entre as quais:
 
-  <li>Instale a extensão Live Media</li>
+- Através da extensão do **Visual Studio**
+- Através do **XAMPP**
+- Outros (pesquise na internet por "localhost")
 
-  <li>Clique em Go Live (Canto inferior direito da tela)</li>
+### Visual Studio
 
-  <li>Visualize o site no navegador padrão</li>
-  
-</ol>
+1. **Abra o Visual Studio**  
+   Caso não possua, faça o download [aqui](https://code.visualstudio.com/download).
 
+2. **Abra o arquivo desse projeto**  
+   - Clique em **File** (Arquivo)  
+   - Selecione **Open Folder** (Abrir Pasta)  
+   - Selecione a pasta do projeto
 
-## XAMPP
+3. **Instale a extensão Live Server**
 
-<ol>
+4. **Clique em Google Live** (Canto inferior direito da tela)
 
-  <li>Abra o XAMPP</li>
-  
-  <ul>
-    <li>Caso não possua, faça o download aqui: https://www.apachefriends.org/download.html</li>
-  </ul>
+5. **Visualize o site no navegador padrão**
 
-  <li>Inicie o servidor apache</li>
+### XAMPP
 
-  <li>Mova o arquivo para um local acessível (preferencialmente no htdocs do próprio XAMPP)</li>
+1. **Abra o XAMPP**  
+   Caso não possua, faça o download [aqui](https://www.apachefriends.org/download.html).
 
-  <li>Abra o localhost juntamente com o nome da pasta em que o arquivo está inserido</li>
+2. **Inicie o servidor Apache**.
 
-  <ul>
-    <li>Ex: localhost/nomedapasta</li>
-  </ul>
-  
-</ol>
+3. **Mova o arquivo para um local acessível**  
+   - Preferencialmente no `htdocs` do próprio XAMPP.
 
-*Ainda não está 100%*
+4. **Abra o localhost** juntamente com o nome da pasta em que o arquivo está inserido.  
+   Ex: `localhost/nomedapasta`
