@@ -48,4 +48,3 @@ Existem diversas formas de hospedar esse site localmente, entre as quais:
    Ex: `localhost/nomedapasta`
 
 
-# Você pode abrí-lo através da hospedagem no [Vercel](site-coca-tau.vercel.app)
