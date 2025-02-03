@@ -8,7 +8,7 @@ O projeto foi desenvolvido utilizando o conceito de **Mobile First** e as seguin
 
 - **HTML** (Linguagem de Marcação de Hipertexto)
 - **CSS** (Folha de Estilo em Cascatas / Linguagem de Estilização)
-- Um projeto no **Figma** como referência
+- Um projeto no [**Figma**](https://www.figma.com/design/om4t25WY856BhEWaEDLNzO/Design---Kristian?node-id=0-1&p=f&t=oNyGBqHHCXDnbhVY-0) como referência
 
 ## Como Hospedar Localmente
 
